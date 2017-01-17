@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lauren's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+		<link rel="icon" href="assets/images/favicon.jpg">
+	</head>
+	<body>
+		<div id="page">
+			<header>
+				<center><img class="logo" alt="logo" src="assets/images/logo.png"></center>
+			</header>
+			<center><nav class="nav">
+				<ul>
+					<li>
+						<a tiitle="about" href="about.html">About</a>
+					</li>
+					<li>
+						<a tiitle="certifications" href="certifications.html">Certifications</a>
+					</li>
+					<li>
+						<a tiitle="resume" href="resume.html">Resume</a>
+					</li>
+					<li>
+						<a tiitle="Contact" href="index.html">Home</a>
+					</li>
+				</ul>
+			</nav></center>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1>2014 - 2015</h1>
+
+			<div class="video">
+			<a href="https://drive.google.com/open?id=0B13cLNea_DmkRlRaTjZUbDZ1Sms">Bullying Video</a>
+			</div>
+			<br>
+			<br>
+			<br>
+
+				<center><img class="mySlides" src="assets/images/shatter.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/ice.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/gold.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/kermit.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/simba.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/simba.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/name1.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/flyer.jpg" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/nutcracker.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/name2.png" height="300px"></center>
+
+				<a class="left" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="right" onclick="plusDivs(+1)">&#10095;</a>
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}    
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+					     x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+				</script>
+
+			<center><p class="quote">These Projects were all done my freshman year at Southwest. We wrere first introduced to Adobe Illustartor in which we completed many drawings and traced many objects to master the pen tool. Then we moved on to Photoshop where we learned about patterns, and what to do with them, and which patterns go together the best. We finally then learned hw to make type look like it was a pattern such as shattering, golden, or having it look frozen. These are just some of my works from freshman year and i have grown so much since then. I hope you enjoy these projects and hope you follow my progress throughout the years.</p></center>
+				
+		</body>
+
+</html>

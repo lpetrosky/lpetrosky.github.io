@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lauren's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+		<link rel="icon" href="assets/images/favicon.jpg">
+	</head>
+	<body>
+		<div id="page">
+			<header>
+				<center><img class="logo" alt="logo" src="assets/images/logo.png"></center>
+			</header>
+			<center><nav class="nav">
+				<ul>
+					<li>
+						<a tiitle="about" href="about.html">About</a>
+					</li>
+					<li>
+						<a tiitle="certifications" href="certifications.html">Certifications</a>
+					</li>
+					<li>
+						<a tiitle="resume" href="resume.html">Resume</a>
+					</li>
+					<li>
+						<a tiitle="Contact" href="index.html">Home</a>
+					</li>
+				</ul>
+			</nav></center>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1>2016 - 2017</h1>
+
+				<center><img class="mySlides" src="assets/images/bomb logo1.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/bomb logo2.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/black front.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/black middle.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/black back.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/white front.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/white middle.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/white back.png" height="300px"></center>
+
+				<a class="left" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="right" onclick="plusDivs(+1)">&#10095;</a>
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}    
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+					     x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+				</script>
+
+			<center><p class="quote">Welcome to my junior year at Southwest CTA. This year we have been working in groups a lot more and are learning how to deal with clients and what they are looking for in designs. At the beginning of the year, our teacher had split us up into groups of four and said for us to make our own company. We had to design logos, business cards, and letterheads for our new company and basically work together to create all of our projects. This is what you see first. Our coompany name we chose was Bomb Design so the logo I had made incorpotated that. My logo actually was chosen to be the companies logo in which we turned into buisness cards, letterheads, and envelopes. <br><br> After we had completed that we moved on to client based design. We were told to create a whole spread of designs to get the idea of fair use across. My designs are shown here and correspond with my classmates that are in my company. In this project i learned about the eras of graphic design, my teamwork and collborative skills, and how to deal with constuctive critism and aply it to my work. I had a lot of fun with this project because I learned a ton of new things. This is just the beginning of my work so look out for more coming soon!</p></center>
+		
+	</body>
+
+</html>

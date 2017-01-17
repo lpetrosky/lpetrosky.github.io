@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lauren's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+		<link rel="icon" href="assets/images/favicon.jpg">
+	</head>
+	<body>
+		<div id="page">
+			<header>
+				<center><img class="logo" alt="logo" src="assets/images/logo.png"></center>
+			</header>
+			<center><nav class="nav">
+				<ul>
+					<li>
+						<a tiitle="about" href="about.html">About</a>
+					</li>
+					<li>
+						<a tiitle="certifications" href="certifications.html">Certifications</a>
+					</li>
+					<li>
+						<a tiitle="resume" href="resume.html">Resume</a>
+					</li>
+					<li>
+						<a tiitle="Contact" href="index.html">Home</a>
+					</li>
+				</ul>
+			</nav></center>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1>2015 - 2016</h1>
+
+
+				<center><img class="mySlides" src="assets/images/pizza.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/ethan.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/dance.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/recolor.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/blow.png" height="300px"></center>
+				<center><img class="mySlides" src="assets/images/wierd.png" height="300px"></center>
+
+				<a class="left" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="right" onclick="plusDivs(+1)">&#10095;</a>
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}    
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+					     x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+				</script>
+
+			<center><p class="quote">These projects were done sophomore year in Graphic Design 2 and Web Design one. At the begining of the year we started working more into photoshop and learning new skills such as blowing up our heads. Then we were assigned a company who needed a new logo. This is the first project you see on this page. This company was a pizza compay who needed a new logo. We were givin two week sofr this project, whhich gave me a lot of time to really think about what the company wanted. In the image my final two designs are shown. This was the first time we had delt with a client and had gotten feedback and constructive critisism for an outside person. <br><br>Some of the other projects I completed were dont outside of school such at the self portrait of my brother and the dance mural. Thses were really fun to complete because it showed that I could take home the skills I had learned throughout the year and aply them to the things I do at home. I hope you see the progress I have made from freshman year and continue to see that progress going into my junior year. </p></center>
+
+		</body>
+
+</html>
