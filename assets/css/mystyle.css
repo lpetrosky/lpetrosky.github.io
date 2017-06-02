@@ -11,13 +11,13 @@ body {
     background-attachment: fixed;
 }
 .nav {
-	font-size: 1.2em;
-	font-family: BigNoodleTitling , "times new roman";
+	font-size: 1.7em;
+	font-family: "BigNoodleTitling" , georgia;
 	display: inline;
 	margin-top: .85em;
 	margin-bottom: 1em;
 	position: absolute;
-	margin-left: -13em;
+	margin-left: -12em;
 	float: left;
 	padding: 1em;
 	padding-top: .4em;
@@ -25,7 +25,7 @@ body {
 	padding-right: 2em;
 	padding-left: 2em;
 	background-color: #E4BBBA;
-	width: 30.5%;
+	width: 35%;
 	height: auto;
 }
 
@@ -58,18 +58,18 @@ li a:hover {
 }
 
 h1 {
-	font-family:  BigNoodleTitling, "Times New Roman", "Sans Serif";
+	font-family:  BigNoodleTitling, georgia, "Sans Serif";
 	color: #6F5E50;
-	font-size: 6em;
+	font-size: 8em;
 	background-color: #E4BBBA;
 	position: relative;
-	margin-left: 32%;
+	margin-left: 29.5%;
 }
 
 h2 {
-	font-family:  BigNoodleTitling, "Times New Roman", "Sans Serif";
+	font-family:  BigNoodleTitling, georgia, "Sans Serif";
 	color: #6F5E50;
-	font-size: 2em;
+	font-size: 1.5em;
 	background-color: #E4BBBA;
 	position: relative;
 	text-align: left;
@@ -79,44 +79,38 @@ h2 {
 }
 
 h3 {
-	font-family:  BigNoodleTitling, "Times New Roman", "Sans Serif";
+	font-family:  BigNoodleTitling, georgia, "Sans Serif";
 	color: #6F5E50;
 	font-size: 3em;
 	background-color: #E4BBBA;
 	padding-top: .5em;
 }
 
-h4 {
-	font-family:  BigNoodleTitling, "Times New Roman", "Sans Serif";
+p {
+	font-family:  BigNoodleTitling, georgia, "Sans Serif";
 	color: #6F5E50;
 	font-size: 1.5em;
 	background-color: #E4BBBA;
-	padding-top: .5em;
-}
-
-p {
-	font-family:  BigNoodleTitling, "Times New Roman", "Sans Serif";
-	color: #6F5E50;
-	font-size: 1.2em;
-	background-color: #E4BBBA;
-	margin-left: 10em;
-	padding: 1em;
+	margin-left: 24%;
+	padding: 0em;
 	text-indent: 50px;
 	width: 50%;
+	text-align: justify;
 
 
 }
 .video{
-	font-family:  BigNoodleTitling, "Times New Roman", "Sans Serif";
+	font-family:  BigNoodleTitling, georgia, "Sans Serif";
 	color: #6F5E50;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	background-color: #E4BBBA;
-	margin-left: 11em;
-	padding: 0em;
-
+	margin-left: 24%;
+	padding: 1em
 }
+
+
 .resume {
-	font-family:  BigNoodleTitling, "Times New Roman", "Sans Serif";
+	font-family:  BigNoodleTitling, georgia, "Sans Serif";
 	color: #6F5E50;
 	font-size: 1.5em;
 	background-color: #E4BBBA;
@@ -129,10 +123,9 @@ p {
 .quote {
 	text-align: center;
 	margin: 0;
-	font-size: 1.2em;
-	padding-top: 2em;
+	font-size: 2em;
+	padding: 1em;
 }
-
 .logo {
 	margin: 1em;
 	/*margin-left: 0.5em;*/
@@ -143,7 +136,7 @@ p {
 .img {
 	margin-top: 1em;
 	margin-bottom: 2em;
-	margin-right: 0em;
+	margin-right: 10em;
 	margin-left: 11em;
 	width: 15%;
 	height: auto;
@@ -165,7 +158,7 @@ p {
 }
 
 .left {
-	margin-left: 21em;
+	margin-left: 37em;
 	color: #6F5E50;
 }
 .right {
@@ -180,8 +173,6 @@ p {
 	margin-left: 3.5em;
 	margin-right: 3em;
 	margin-bottom: 2.7em;
-	width: 17%;
-	padding-top: 2.5em;
 }
 
 .img2 {
@@ -199,9 +190,9 @@ footer {
 	text-align: left;
 	background-color: #E4BBBA;
 	padding: .5em;
-	font-size: 1em;	
+	font-size: 1.5em;	
 	color: #6F5E50;
-	font-family: BigNoodleTitling, "Times New Roman", "Sans Serif";
+	font-family: BigNoodleTitling, georgia, "Sans Serif";
 }
 
 
@@ -212,25 +203,16 @@ footer {
 
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 760px) {
 	.logo{
 		width: 80%
 	}
 	.nav{
 		font-size: 1.2em;
-		width: 500px;
-		margin-left: -13em;
+		width: 520px;
+		margin-left: 1em;
 		text-align: center;
 	}
-	.img {
-		margin-top: 10em;
-		margin-bottom: 0em;
-		margin-right: 10em;
-		margin-left: 17em;
-		width: 25%;
-		height: auto;
-		padding-top: 0em;
-}
 	.quote{
 		font-size: 1.2em;
 	}
@@ -241,8 +223,8 @@ footer {
 
 	.nav2{
 		margin-bottom: 0em;
-		width: 84.5%;
-		margin-left: 5em;
+		width: 80%;
+		margin-left: 2em;
 
 	}
 
@@ -252,22 +234,13 @@ footer {
 		width: 80%
 	}
 	.nav{
-		font-size: 1em;
+		font-size: .9em;
 		width: 200px;
-		margin-left: -8em;
+		margin-left: 12em;
 		text-align: center;
 
 
 	}
-	.img {
-		margin-top: 10em;
-		margin-bottom: 0em;
-		margin-right: 10em;
-		margin-left: 13em;
-		width: 25%;
-		height: auto;
-		padding-top: 0em;
-}
 	.quote{
 		font-size: .9em;
 	}
@@ -277,9 +250,9 @@ footer {
 	}
 
 	.nav2{
-	width:100%;
+	width:85%;
 	margin-bottom: -1em;
-	margin-left: 2.5em;
+	margin-left: 1.5em;
 	margin-right: 0em;
 
 	}
@@ -291,15 +264,15 @@ footer {
 		width: 80%
 	}
 	.nav{
-		font-size: 1em;
+		font-size: .7em;
 		width: 200px;
-		margin-left: -7.5em;
+		margin-left: 12.2em;
 		text-align: center;
 
 
 	}
 	.img {
-		margin-top: 10em;
+		margin-top: 1em;
 		margin-bottom: 0em;
 		margin-right: 10em;
 		margin-left: 11em;
@@ -308,7 +281,7 @@ footer {
 		padding-top: 0em;
 }
 	.quote{
-		font-size: 1em;
+		font-size: .7em;
 	}
 	footer{
 		font-size: .7em;
@@ -316,9 +289,9 @@ footer {
 	}
 
 	.nav2{
-		width:120%;
-		margin-left: .5em;
-		margin-right: 0em;
+	width:80%;
+	margin-left: 1.5em;
+	margin-right: 0em;
 
 	}
 	
@@ -330,9 +303,9 @@ footer {
 	}
 	.nav{
 		font-size: 1em;
-		width: 110px;
+		width: 100px;
 		padding-left: 0em;
-		margin-left: 3em;
+		margin-left: 2em;
 		text-align: center;
 		position:relative;
 
@@ -342,7 +315,7 @@ footer {
 		margin-top: 1em;
 		margin-bottom: 0em;
 		margin-right: 10em;
-		margin-left: 10em;
+		margin-left: 11em;
 		width: 15%;
 		height: auto;
 		padding-top: 0em;
@@ -350,18 +323,18 @@ footer {
 	.quote{
 		margin-left: 4em;
 		margin-right: 4em;
-		font-size: .8em;
+		font-size: .5em;
 	}
 	footer{
-		font-size: .8em;
+		font-size: .5em;
 		width: 360px;
 	}
 
 	.nav2{
-		width:150%;
-		margin-bottom: -1em;
-		margin-left: -1.3em;
-		margin-right: 0em;
+	width:75%;
+	margin-bottom: -1em;
+	margin-left: 2.5em;
+	margin-right: 0em;
 
 	}
 	
